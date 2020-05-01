@@ -1,5 +1,5 @@
 # scalr-iacp-infra
-Infrastructure needed for the IaCP deployment
+Infrastructure needed for the IaCP deployment. Full installation instructions located here: https://iacp.docs.scalr.com/en/latest/installation/installation.html
 
 NOT PRODUCTION READY YET
 
