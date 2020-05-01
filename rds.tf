@@ -14,12 +14,12 @@ resource "aws_db_subnet_group" "scalr" {
   subnet_ids = data.aws_subnet_ids.scalr.ids
 
   tags = {
-    Name = "Group1"
+    Name = "RDS-Scalr-Group1"
   }
 }
 
 resource "aws_db_parameter_group" "default" {
-  name   = "rds-pg"
+  name   = "rds-scalr"
   family = "mysql5.7"
 
   parameter {
