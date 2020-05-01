@@ -43,6 +43,7 @@ resource "aws_db_instance" "scalr_mysql" {
   storage_type         = "gp2"
   engine               = "mysql"
   engine_version       = "5.7"
+  multi_az             = true
   instance_class       = "db.t3.xlarge"
   name                 = "${var.name_prefix}scalr"
   username             = "scalr"
