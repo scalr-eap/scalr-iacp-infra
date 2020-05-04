@@ -57,3 +57,7 @@ resource "aws_db_instance" "scalr_mysql" {
 output "db_address" {
   value = aws_db_instance.scalr_mysql.address
 }
+
+output rds_creds {
+  value = random_password.mysql_pw.result
+}
